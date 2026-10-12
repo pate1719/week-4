@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 Demo</title>
+</head>
+<body>
+    <header>
+        <h1>Week 4 Demo</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Forms</h2>
+            <article>
+                <form action="next.html" method="get">
+                    <label for="fname">Name</label>
+                    <input id="fname" type="text" name="firstname" placeholder="First Name">
+
+                    <div>
+                        <label for="msg">Message</label><br>
+                        <textarea name="message" id="msg"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="pgm">What Program?</label>
+                        <select name="program" id="pgm">
+                            <option value="imd">Interactive Media Design</option>
+                            <option value="gd">Graphic Design</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <h3>What Music?</h3>
+                        <label for="rock">Rock</label>
+                        <input type="checkbox" id="rock" name="rock">
+                        <br>
+                        <label for="pop">Pop</label>
+                        <input type="checkbox" id="pop" name="pop">
+                    </div>
+
+                    <div>
+                        <h3>Yes or No?</h3>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="choice">
+                        <br>
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="choice">
+                    </div>
+
+                    <div>
+                        <button type="submit">Send It</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <h2>Links</h2>
+            <article>
+                <h3>External Link</h3>
+                <p><a href="https://google.com" target="_blank">Visit Google</a></p>
+            </article>
+            <article>
+                <h3>Internal Link</h3>
+                <p><a href="next.html">New Page</a></p>
+            </article>
+            <article>
+                <h3>On Page Link</h3>
+                <p><a href="#bottom">To The Bottom &darr;</a></p>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <h2>Tables</h2>
+            <article>
+                <table>
+                    <caption>Student Info</caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Student ID</th>
+                            <th>Program</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Parth</td>
+                            <td>001</td>
+                            <td>IMD</td>
+                        </tr>
+                        <tr>
+                            <td>Polo</td>
+                            <td>002</td>
+                            <td>GD</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <h2>Images</h2>
+            <article>
+                <img src="images/nature.jpg" alt="mountain scene" title="Mountains">
+            </article>
+         </section>
+    </main>
+    <footer id="bottom">
+        <p>Copyright 2026</p>
+    </footer>
+</body>
+</html>
